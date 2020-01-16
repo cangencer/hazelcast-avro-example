@@ -10,17 +10,19 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>example-upload</artifactId>
+    <artifactId>schema-server</artifactId>
 
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.hazelcast</groupId>
-                <artifactId>hazelcast-avro-maven-plugin</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </plugin>
-        </plugins>
-    </build>
+    <dependencies>
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast-avro</artifactId>
+            <version>3.12.6-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast-client</artifactId>
+            <version>3.12.6-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
