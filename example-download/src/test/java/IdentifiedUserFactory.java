@@ -1,5 +1,3 @@
-package com.hazelcast.examples.avro;
-
 import com.hazelcast.nio.serialization.DataSerializableFactory;
 import com.hazelcast.nio.serialization.IdentifiedDataSerializable;
 

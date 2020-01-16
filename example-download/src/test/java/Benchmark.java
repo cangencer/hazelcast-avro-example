@@ -2,8 +2,6 @@ import com.hazelcast.config.Config;
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
 import com.hazelcast.core.IMap;
-import com.hazelcast.examples.avro.IdentifiedUser;
-import com.hazelcast.examples.avro.SerializableUser;
 import com.hazelcast.examples.avro.User;
 import org.junit.Before;
 import org.junit.Test;

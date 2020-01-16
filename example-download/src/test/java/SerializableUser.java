@@ -1,5 +1,3 @@
-package com.hazelcast.examples.avro;
-
 import java.io.Serializable;
 
 public class SerializableUser implements Serializable {
