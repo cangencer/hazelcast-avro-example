@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.hazelcast.examples</groupId>
+        <artifactId>hazelcast-avro-example</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>example-upload</artifactId>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.hazelcast</groupId>
+                <artifactId>hazelcast-avro-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast-client</artifactId>
+            <version>3.12.6-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.vbekiaris</groupId>
+            <artifactId>hazelcast-avro-serializer</artifactId>
+            <version>3.12.6-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
