@@ -34,6 +34,9 @@ public class Benchmark {
     }
     @Test
     public void test() {
+        System.out.println("PORTABLE");
+        bench(i -> new PortableUser(i, NAME_PREFIX + i, NAME_PREFIX + i));
+
         System.out.println("AVRO");
         bench(i -> new User(i, NAME_PREFIX + i, NAME_PREFIX + i));
 
